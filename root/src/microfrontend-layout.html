@@ -1,0 +1,38 @@
+<single-spa-router>
+  <main>
+    <nav class="topnav">
+      <application name="@FoodMart/navbar"></application>
+    </nav>
+    <div class="main-content">
+      <route path="/aboutUs">
+        <application name="@FoodMart/about"></application>
+      </route>
+      <route path="/shop">
+        <application name="@FoodMart/shop"></application>
+      </route>
+      <route path="/login">
+        <application name="@FoodMart/login"></application>
+      </route>
+      <route path="/signup">
+        <application name="@FoodMart/signup"></application>
+      </route>
+      <route path="/profile">
+        <application name="@FoodMart/profile"></application>
+      </route>
+      <route path="/cart">
+        <application name="@FoodMart/cart"></application>
+      </route>
+      <route default>
+        <application name="@FoodMart/home"></application>
+        <application name="@FoodMart/top-products"></application>
+      </route>
+      <route path="/item">
+        <application name="@FoodMart/product"></application>
+        <application name="@FoodMart/top-products"></application>
+      </route>
+    </div>
+    <footer class="footer">
+      <application name="@FoodMart/footer"></application>
+    </footer>
+  </main>
+</single-spa-router>
