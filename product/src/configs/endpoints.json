@@ -1,0 +1,6 @@
+{
+    "productServiceBff":"http://localhost:3000/api/v1/products/",
+    "createNewCartServiceBff":"http://localhost:3000/api/v1/",
+    "addItemToCartServiceBff":"http://localhost:3000/api/v1/carts/",
+    "getByUserIdCartServiceBff":"http://localhost:3000/api/v1/carts/user/"
+}
