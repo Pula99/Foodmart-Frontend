@@ -1,0 +1,7 @@
+{
+    "getByUserIdCartServiceBff":"http://localhost:3000/api/v1/carts/user/",
+    "getProductById":"http://localhost:3000/api/v1/products/",
+    "removeProductFromCart": "http://localhost:3000/api/v1/carts/",
+    "updateCartItem": "http://localhost:3000/api/v1/carts/",
+    "updateCart": "http://localhost:3000/api/v1/carts/"
+}
